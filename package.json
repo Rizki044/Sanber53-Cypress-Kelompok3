@@ -1,0 +1,22 @@
+{
+  "name": "sanber53-cypress-kelompok3",
+  "version": "1.0.0",
+  "description": "Cypress Week 3 Sanbercode QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizki044/Sanber53-Cypress-Kelompok3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizki044/Sanber53-Cypress-Kelompok3/issues"
+  },
+  "homepage": "https://github.com/Rizki044/Sanber53-Cypress-Kelompok3#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
