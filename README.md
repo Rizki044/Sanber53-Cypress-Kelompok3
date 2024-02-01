@@ -3,9 +3,9 @@
 
 ### Nama Anggota Kelompok : 
 <ul>
-<li>Anjar Giri Prayogo</li>
-<li>Ilham Ramadhan</li>
-<li>Anis Humanisa</li>
-<li>Rafi Atha Ridel</li>
-<li>Rizki Nur Wakidah</li>
+<li>Ilham Ramadhan (Create an Account  & Login )</li>
+<li>Rafi Atha Ridel (My Account > Edit Account Information & My Account > Edit Address)</li>
+<li>Anjar Giri Prayogo (Choose product(s)) </li>
+<li>Rizki Nur Wakidah (View and Update Shopping Cart )</li>
+<li>Anis Humanisa (Proceed to Checkout)</li>
 <ul>
