@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Rizki044/Sanber53-Cypress-Kelompok3#readme",
   "devDependencies": {
     "cypress": "^13.6.4"
-  }
+  },
+  "dependencies": {}
 }
