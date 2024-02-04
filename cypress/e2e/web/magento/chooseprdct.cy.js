@@ -4,7 +4,7 @@ import('../../../support/commands.js');
 describe('Search Product Functionality', () => {
   beforeEach(() => {
       // Menggunakan baseUrl dari cypress.config.js
-      cy.login()
+      cy.login();
   })
 
   it('Search Product Failed - No Product Available', () => {
