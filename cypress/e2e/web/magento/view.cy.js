@@ -10,4 +10,3 @@ describe('View Function', () => {
         cy.get('.action.showcart').click()
     })
 })
-
