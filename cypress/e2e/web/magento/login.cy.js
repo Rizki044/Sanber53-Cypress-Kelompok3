@@ -19,7 +19,7 @@ describe('Login Functionality', () => {
         cy.get('.message-error').should('be.visible')
     })
 
-    it.only('Verify Failed Login Without password', () => {
+    it('Verify Failed Login Without password', () => {
         cy.get('#email').type('result@example.com')
         cy.get('.action.login.primary').click()
 
