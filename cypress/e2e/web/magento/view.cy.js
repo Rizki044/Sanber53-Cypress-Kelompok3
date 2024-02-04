@@ -9,5 +9,9 @@ describe('View Function', () => {
     it('View Product', () => {
         cy.get('.action.showcart').click()
     })
+
+    //it('Apply Discount', () => {
+        //cy.get('.cart-discount').click()
+    //})
 })
 
