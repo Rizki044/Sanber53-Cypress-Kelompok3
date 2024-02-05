@@ -11,11 +11,7 @@ describe('Update Function',() => {
         cy.get('.action.update').click()
     })
 
-    /// Edit product
-    //it("Edit Product",() => {
-           //})
-    
-    ///Delete product
+         ///Delete product
     it("Delete Product", () => {
         ({
             url: 'https://magento.softwaretestingboard.com/checkout/cart/',
@@ -36,4 +32,7 @@ describe('Update Function',() => {
             }
         });
         })
+
+     /// Add discount product 
+     
 })
