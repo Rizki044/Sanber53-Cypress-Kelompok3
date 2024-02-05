@@ -12,6 +12,7 @@
 // -- This is a parent command --
 Cypress.Commands.add('login', () => {
     cy.visit('/customer/account/login')  // Asumsikan URL login Anda adalah /login
+
     cy.get('#email').type('result@example.com')
     cy.get('#pass').type('Lepkom@123')
     cy.get('.action.login.primary').click()
