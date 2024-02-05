@@ -4,7 +4,6 @@ describe('SearchFunctionality', () => {
     beforeEach(() => {
         cy.login()
     });
-
     it('Change first name and last name success', () => {
         cy.get('.block-dashboard-info > .block-content > .box > .box-actions > .edit > span').click()
         cy.get('#firstname').clear().type('Fii')
@@ -60,5 +59,4 @@ describe('SearchFunctionality', () => {
         cy.url().should('include', '/customer/account')
         // cy.get('.column > .message').should('be.visible')
     })
-    
 })
