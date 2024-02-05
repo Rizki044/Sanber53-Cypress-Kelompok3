@@ -26,7 +26,7 @@ describe('SearchFunctionality', () => {
         // cy.get('.column > .message').should('be.visible')
     })
 
-    it.only('Failed Change password', () => {
+    it.only('Failed Change password with no special character', () => {
         cy.get('.block-dashboard-info > .block-content > .box > .box-actions > .edit > span').click()
         cy.get('#change-password').click()
         cy.get('#current-password').type('apaaja@321')
@@ -62,15 +62,3 @@ describe('SearchFunctionality', () => {
     })
     
 })
-// describe('Edit Functionality', () => {
-//     beforeEach(() => {
-//       cy.visit('/customer/account/login')
-//       it('Verify Success Login', () => {
-//         cy.get('#email').type('result@example.com')
-//         cy.get('#pass').type('Lepkom@123')
-//         cy.get('.action.login.primary').click()
-//     })
-//   })
-    
-
-//   })
