@@ -15,8 +15,6 @@ describe('Update Function',() => {
     //it("Edit Product",() => {
            //})
     
-
-    //it('Delete Product', () => {
-        //cy.get(".action.action-delete",{timeout: 4000}).click(); // klik tombol delete
-     //})
+    ///Delete product
+  
 })
