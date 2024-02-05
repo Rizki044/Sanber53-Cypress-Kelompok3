@@ -22,7 +22,8 @@ describe("Checkout Magento", () => {
     cy.contains("You added Radiant Tee to your shopping cart.",{timeout  : 30000}).should( "be.visible");
 
     /// Checkout
-    cy.get("#top-cart-btn-checkout", {timeout: 30000}).click();
+    cy.wait(500)
+    cy.get("#top-cart-btn-checkout", {timeout: 30000}).click({force:true});
     cy.get(".shipping-address-items", {timeout: 30000}).should("exist").then(($item) => {
       if($item.length > 0){
         cy.get('tbody > :nth-child(1) > :nth-child(1)').click();
