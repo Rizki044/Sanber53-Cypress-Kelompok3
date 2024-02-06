@@ -12,27 +12,16 @@ describe('Update Function',() => {
     })
 
          ///Delete product
-    it("Delete Product", () => {
-        ({
-            url: 'https://magento.softwaretestingboard.com/checkout/cart/',
-            type: 'post',
-            data: 'remove=',
-            dataType: 'json',
-            success: function(json) {
-                $('.success, .warning, .attention, .information').remove();
-                if (json['emptyCart']) {
-                    location.href="/checkout/cart/";
-                }
-                if (json['output']) {
-                    $('#cart_total').html(json['4']);
-                    $("table.total tr:last td:last").text(json['total'].split('-')[1]);
-        
-                    $('#cart .content').html(json['output']);
-                }
-            }
-        });
-        })
-
+         it('can delete all completed tasks', () => {
+            cy.contains('Remove item').click()
+            cy.get('.todo-list li')
+              .should('have.length', 1)
+              .should('not.have.text', 'Pay electric bill')
+            // Finally, make sure that the clear button no longer exists.
+            cy.contains('Clear completed').should('not.exist')
+          })
+ 
      /// Add discount product 
+     
      
 })
